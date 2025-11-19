@@ -15,7 +15,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
 
 export const PLACEHOLDER_INPUT = "Ask anything...";
 
-export const GREETING = "Hi, I’m Shabbir’s AI assistant. Ask me about my work, projects, background or hobby.";
+export const GREETING = "You’re chatting with Shabbir’s AI. ";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
