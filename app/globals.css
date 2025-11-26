@@ -32,3 +32,19 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+/* Make links to the contact page look like a button in chat messages */
+a[href*="/contact"] {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #020617;           /* dark navy, tweak if needed */
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+/* Optional: hover state */
+a[href*="/contact"]:hover {
+  background: #020b2c;
+}
